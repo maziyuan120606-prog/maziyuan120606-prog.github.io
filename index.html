@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>拯救夏艺铭</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    font-size: 20px;
+    padding: 20px;
+    background-color: #f0f8ff;
+}
+button {
+    font-size:18px;
+    padding:12px 24px;
+    margin:15px;
+    border-radius:10px;
+    border: none;
+    cursor: pointer;
+}
+#btn1{
+    background:#48aaff;
+    color:white;
+}
+#btn2{
+    background:#ff7788;
+    color:white;
+}
+#result{
+    margin-top:20px;
+    font-size:24px;
+    color:#dd2255;
+    font-weight:bold;
+}
+</style>
+</head>
+<body>
+<h2>拯救夏艺铭</h2>
+<p>发光的孟星宇在和张伯伦猴子跳舞，马子源看得笑哈哈，哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+
+<div>
+<button id="btn1" onclick="laugh()">跟着笑</button>
+<button id="btn2" onclick="notLaugh()">不跟着笑</button>
+</div>
+
+<div id="result"></div>
+
+<script>
+function laugh(){
+    document.getElementById("result").innerText = "张伯伦亲你一口";
+}
+function notLaugh(){
+    document.getElementById("result").innerText = "夏艺铭和你跳舞";
+}
+</script>
+
+</body>
+</html>
